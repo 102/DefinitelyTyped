@@ -97,4 +97,6 @@ export function useMediaQuery(
     callback?: (matches: boolean) => void
 ): boolean;
 
+export function toQuery(query: MediaQueryAllQueryable): string;
+
 export default MediaQuery;
